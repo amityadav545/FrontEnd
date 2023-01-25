@@ -47,7 +47,7 @@ const DefaultRouter = () => {
             <CSSTransition classNames="fadein" timeout={300}>
                 <Switch>
 
-                    <Route path="/dashboard" exact index component={Index} />
+                    <Route path="/dashboard" exact component={Index} />
                     {/* user */}
                     <Route path="/dashboard/app/user-profile" exact component={UserProfile} />
                     <Route path="/dashboard/app/user-add" exact component={UserAdd} />
